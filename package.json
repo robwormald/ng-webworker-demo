@@ -12,5 +12,9 @@
     "typescript": "2.4",
     "webpack": "^3.5.6",
     "zone.js": "^0.8.17"
-  }
+	},
+	"scripts": {
+		"build": "ngc && webpack --config webpack.config.ui.js && webpack --config webpack.config.worker.js",
+		"build:prod": "ngc && webpack --config webpack.config.ui.js -p && webpack --config webpack.config.worker.js -p"
+	}
 }
