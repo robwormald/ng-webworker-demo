@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@angular-devkit/build-optimizer": "^0.0.19",
+    "@angular/common": "next",
+    "@angular/compiler": "next",
+    "@angular/compiler-cli": "next",
+    "@angular/core": "next",
+    "@angular/platform-browser": "next",
+    "@angular/platform-webworker": "next",
+    "@types/node": "^8.0.28",
+    "rxjs": "^5.4.3",
+    "typescript": "2.4",
+    "webpack": "^3.5.6",
+    "zone.js": "^0.8.17"
+  }
+}
